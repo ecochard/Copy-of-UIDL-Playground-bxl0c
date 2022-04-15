@@ -1,0 +1,155 @@
+{
+  "importmap": {
+    "imports": {
+      "@teleporthq/teleport-component-generator-react": "https://ga.jspm.io/npm:@teleporthq/teleport-component-generator-react@0.19.8/dist/esm/index.js",
+      "jszip": "https://ga.jspm.io/npm:jszip@3.9.1/lib/index.js",
+      "prop-types": "https://ga.jspm.io/npm:prop-types@15.7.2/index.js",
+      "react": "https://ga.jspm.io/npm:react@17.0.2/index.js",
+      "react-dom": "https://ga.jspm.io/npm:react-dom@17.0.2/index.js",
+      "react-helmet": "https://ga.jspm.io/npm:react-helmet@6.1.0/lib/Helmet.js",
+      "react-router": "https://ga.jspm.io/npm:react-router@5.2.1/esm/react-router.js",
+      "react-router-dom": "https://ga.jspm.io/npm:react-router-dom@5.3.0/esm/react-router-dom.js",
+      "subjecto": "https://ga.jspm.io/npm:subjecto@0.0.36/dist/esm/index.js"
+    },
+    "scopes": {
+      "https://ga.jspm.io/": {
+        "@babel/generator": "https://ga.jspm.io/npm:@babel/generator@7.17.3/lib/index.js",
+        "@babel/helper-validator-identifier": "https://ga.jspm.io/npm:@babel/helper-validator-identifier@7.16.7/lib/index.js",
+        "@babel/runtime/helpers/esm/assertThisInitialized": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/assertThisInitialized.js",
+        "@babel/runtime/helpers/esm/createClass": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/createClass.js",
+        "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.16.5/helpers/esm/extends.js",
+        "@babel/runtime/helpers/esm/inheritsLoose": "https://ga.jspm.io/npm:@babel/runtime@7.16.5/helpers/esm/inheritsLoose.js",
+        "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": "https://ga.jspm.io/npm:@babel/runtime@7.16.5/helpers/esm/objectWithoutPropertiesLoose.js",
+        "@babel/runtime/helpers/esm/toConsumableArray": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/toConsumableArray.js",
+        "@babel/runtime/helpers/inheritsLoose": "https://ga.jspm.io/npm:@babel/runtime@7.16.5/helpers/inheritsLoose.js",
+        "@babel/types": "https://ga.jspm.io/npm:@babel/types@7.17.0/lib/index.js",
+        "@mojotech/json-type-validation": "https://ga.jspm.io/npm:@mojotech/json-type-validation@3.1.0/dist/index.umd.js",
+        "@starptech/prettyhtml-hast-to-html": "https://ga.jspm.io/npm:@starptech/prettyhtml-hast-to-html@0.10.0/index.js",
+        "@teleporthq/teleport-component-generator": "https://ga.jspm.io/npm:@teleporthq/teleport-component-generator@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-common": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-common@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-css": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-css@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-css-modules": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-css-modules@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-import-statements": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-import-statements@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-jsx-inline-styles": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-jsx-inline-styles@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-jsx-proptypes": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-jsx-proptypes@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-react-base-component": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-react-base-component@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-react-jss": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-react-jss@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-react-styled-components": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-react-styled-components@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-plugin-react-styled-jsx": "https://ga.jspm.io/npm:@teleporthq/teleport-plugin-react-styled-jsx@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-postprocessor-prettier-jsx": "https://ga.jspm.io/npm:@teleporthq/teleport-postprocessor-prettier-jsx@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-shared": "https://ga.jspm.io/npm:@teleporthq/teleport-shared@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-types": "https://ga.jspm.io/npm:@teleporthq/teleport-types@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-uidl-resolver": "https://ga.jspm.io/npm:@teleporthq/teleport-uidl-resolver@0.19.8/dist/esm/index.js",
+        "@teleporthq/teleport-uidl-validator": "https://ga.jspm.io/npm:@teleporthq/teleport-uidl-validator@0.19.8/dist/esm/index.js",
+        "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.19/nodelibs/browser/buffer.js",
+        "character-entities-html4": "https://ga.jspm.io/npm:character-entities-html4@1.1.4/index.json.js",
+        "character-entities-legacy": "https://ga.jspm.io/npm:character-entities-legacy@1.1.4/index.json.js",
+        "comma-separated-tokens": "https://ga.jspm.io/npm:comma-separated-tokens@1.0.8/index.js",
+        "core-util-is": "https://ga.jspm.io/npm:core-util-is@1.0.3/lib/util.js",
+        "css-vendor": "https://ga.jspm.io/npm:css-vendor@2.0.8/dist/css-vendor.esm.js",
+        "deepmerge": "https://ga.jspm.io/npm:deepmerge@4.2.2/dist/cjs.js",
+        "events": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/events.js",
+        "hast-util-is-element": "https://ga.jspm.io/npm:hast-util-is-element@1.1.0/index.js",
+        "hast-util-whitespace": "https://ga.jspm.io/npm:hast-util-whitespace@1.0.4/index.js",
+        "history": "https://ga.jspm.io/npm:history@4.10.1/index.js",
+        "hoist-non-react-statics": "https://ga.jspm.io/npm:hoist-non-react-statics@3.3.2/dist/hoist-non-react-statics.cjs.js",
+        "html-void-elements": "https://ga.jspm.io/npm:html-void-elements@1.0.5/index.json.js",
+        "html-whitespace-sensitive-tag-names": "https://ga.jspm.io/npm:html-whitespace-sensitive-tag-names@1.0.3/index.json.js",
+        "hyphenate-style-name": "https://ga.jspm.io/npm:hyphenate-style-name@1.0.4/index.js",
+        "immediate": "https://ga.jspm.io/npm:immediate@3.0.6/lib/browser.js",
+        "inherits": "https://ga.jspm.io/npm:inherits@2.0.4/inherits_browser.js",
+        "is-alphabetical": "https://ga.jspm.io/npm:is-alphabetical@1.0.4/index.js",
+        "is-alphanumerical": "https://ga.jspm.io/npm:is-alphanumerical@1.0.4/index.js",
+        "is-decimal": "https://ga.jspm.io/npm:is-decimal@1.0.4/index.js",
+        "is-hexadecimal": "https://ga.jspm.io/npm:is-hexadecimal@1.0.4/index.js",
+        "is-in-browser": "https://ga.jspm.io/npm:is-in-browser@1.1.3/dist/index.js",
+        "isarray": "https://ga.jspm.io/npm:isarray@0.0.1/index.js",
+        "jsesc": "https://ga.jspm.io/npm:jsesc@2.5.2/jsesc.js",
+        "jss": "https://ga.jspm.io/npm:jss@10.9.0/dist/jss.esm.js",
+        "jss-plugin-camel-case": "https://ga.jspm.io/npm:jss-plugin-camel-case@10.9.0/dist/jss-plugin-camel-case.esm.js",
+        "jss-plugin-compose": "https://ga.jspm.io/npm:jss-plugin-compose@10.9.0/dist/jss-plugin-compose.esm.js",
+        "jss-plugin-default-unit": "https://ga.jspm.io/npm:jss-plugin-default-unit@10.9.0/dist/jss-plugin-default-unit.esm.js",
+        "jss-plugin-expand": "https://ga.jspm.io/npm:jss-plugin-expand@10.9.0/dist/jss-plugin-expand.esm.js",
+        "jss-plugin-extend": "https://ga.jspm.io/npm:jss-plugin-extend@10.9.0/dist/jss-plugin-extend.esm.js",
+        "jss-plugin-global": "https://ga.jspm.io/npm:jss-plugin-global@10.9.0/dist/jss-plugin-global.esm.js",
+        "jss-plugin-nested": "https://ga.jspm.io/npm:jss-plugin-nested@10.9.0/dist/jss-plugin-nested.esm.js",
+        "jss-plugin-props-sort": "https://ga.jspm.io/npm:jss-plugin-props-sort@10.9.0/dist/jss-plugin-props-sort.esm.js",
+        "jss-plugin-rule-value-function": "https://ga.jspm.io/npm:jss-plugin-rule-value-function@10.9.0/dist/jss-plugin-rule-value-function.esm.js",
+        "jss-plugin-rule-value-observable": "https://ga.jspm.io/npm:jss-plugin-rule-value-observable@10.9.0/dist/jss-plugin-rule-value-observable.esm.js",
+        "jss-plugin-template": "https://ga.jspm.io/npm:jss-plugin-template@10.9.0/dist/jss-plugin-template.esm.js",
+        "jss-plugin-vendor-prefixer": "https://ga.jspm.io/npm:jss-plugin-vendor-prefixer@10.9.0/dist/jss-plugin-vendor-prefixer.esm.js",
+        "jss-preset-default": "https://ga.jspm.io/npm:jss-preset-default@10.9.0/dist/jss-preset-default.esm.js",
+        "lie": "https://ga.jspm.io/npm:lie@3.3.0/lib/browser.js",
+        "lodash.isequal": "https://ga.jspm.io/npm:lodash.isequal@4.5.0/index.js",
+        "mini-create-react-context": "https://ga.jspm.io/npm:mini-create-react-context@0.4.1/dist/cjs/index.js",
+        "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
+        "pako": "https://ga.jspm.io/npm:pako@1.0.11/index.js",
+        "path-to-regexp": "https://ga.jspm.io/npm:path-to-regexp@1.8.0/index.js",
+        "prettier/parser-babel.js": "https://ga.jspm.io/npm:prettier@2.5.1/parser-babel.js",
+        "prettier/parser-postcss.js": "https://ga.jspm.io/npm:prettier@2.5.1/parser-postcss.js",
+        "prettier/standalone.js": "https://ga.jspm.io/npm:prettier@2.5.1/standalone.js",
+        "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.19/nodelibs/browser/process.js",
+        "process-nextick-args": "https://ga.jspm.io/npm:process-nextick-args@2.0.1/index.js",
+        "property-information/find": "https://ga.jspm.io/npm:property-information@5.6.0/find.js",
+        "property-information/html": "https://ga.jspm.io/npm:property-information@5.6.0/html.js",
+        "property-information/svg": "https://ga.jspm.io/npm:property-information@5.6.0/svg.js",
+        "react-fast-compare": "https://ga.jspm.io/npm:react-fast-compare@3.2.0/index.js",
+        "react-is": "https://ga.jspm.io/npm:react-is@16.13.1/index.js",
+        "react-side-effect": "https://ga.jspm.io/npm:react-side-effect@2.1.1/lib/index.js",
+        "readable-stream": "https://ga.jspm.io/npm:readable-stream@2.3.7/readable-browser.js",
+        "readable-stream/lib/internal/streams/stream.js": "https://ga.jspm.io/npm:readable-stream@2.3.7/lib/internal/streams/stream-browser.js",
+        "repeat-string": "https://ga.jspm.io/npm:repeat-string@1.6.1/index.js",
+        "resolve-pathname": "https://ga.jspm.io/npm:resolve-pathname@3.0.0/index.js",
+        "safe-buffer": "https://ga.jspm.io/npm:safe-buffer@5.1.2/index.js",
+        "scheduler": "https://ga.jspm.io/npm:scheduler@0.20.2/index.js",
+        "set-immediate-shim": "https://ga.jspm.io/npm:set-immediate-shim@1.0.1/index.js",
+        "source-map": "https://ga.jspm.io/npm:source-map@0.5.7/source-map.js",
+        "space-separated-tokens": "https://ga.jspm.io/npm:space-separated-tokens@1.1.5/index.js",
+        "string_decoder": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/string_decoder.js",
+        "stringify-entities": "https://ga.jspm.io/npm:stringify-entities@2.0.0/index.js",
+        "symbol-observable": "https://ga.jspm.io/npm:symbol-observable@1.2.0/lib/index.js",
+        "tiny-invariant": "https://ga.jspm.io/npm:tiny-invariant@1.1.0/dist/tiny-invariant.cjs.js",
+        "tiny-warning": "https://ga.jspm.io/npm:tiny-warning@1.0.3/dist/tiny-warning.esm.js",
+        "to-fast-properties": "https://ga.jspm.io/npm:to-fast-properties@2.0.0/index.js",
+        "unist-util-is": "https://ga.jspm.io/npm:unist-util-is@2.1.3/index.js",
+        "util": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/util.js",
+        "util-deprecate": "https://ga.jspm.io/npm:util-deprecate@1.0.2/browser.js",
+        "value-equal": "https://ga.jspm.io/npm:value-equal@1.0.1/index.js",
+        "xtend": "https://ga.jspm.io/npm:xtend@4.0.2/immutable.js"
+      },
+      "https://ga.jspm.io/npm:core-util-is@1.0.3/": {
+        "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/buffer.js"
+      },
+      "https://ga.jspm.io/npm:jss-plugin-extend@10.9.0/": {
+        "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/extends.js"
+      },
+      "https://ga.jspm.io/npm:jss-plugin-global@10.9.0/": {
+        "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/extends.js"
+      },
+      "https://ga.jspm.io/npm:jss-plugin-nested@10.9.0/": {
+        "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/extends.js"
+      },
+      "https://ga.jspm.io/npm:jss@10.9.0/": {
+        "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/extends.js",
+        "@babel/runtime/helpers/esm/inheritsLoose": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/inheritsLoose.js",
+        "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": "https://ga.jspm.io/npm:@babel/runtime@7.17.2/helpers/esm/objectWithoutPropertiesLoose.js"
+      },
+      "https://ga.jspm.io/npm:jszip@3.9.1/": {
+        "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/buffer.js"
+      },
+      "https://ga.jspm.io/npm:process-nextick-args@2.0.1/": {
+        "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/process.js"
+      },
+      "https://ga.jspm.io/npm:readable-stream@2.3.7/": {
+        "isarray": "https://ga.jspm.io/npm:isarray@1.0.0/index.js",
+        "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/process.js"
+      },
+      "https://ga.jspm.io/npm:safe-buffer@5.1.2/": {
+        "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/buffer.js"
+      },
+      "https://ga.jspm.io/npm:set-immediate-shim@1.0.1/": {
+        "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.21/nodelibs/browser/process.js"
+      }
+    }
+  }
+}
