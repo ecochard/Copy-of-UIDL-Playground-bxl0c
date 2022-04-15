@@ -10,7 +10,6 @@ const Menu = () => {
   const location = useLocation();
   const history = useHistory();
 
-  
   useEffect(() => {
     // on refresh, display last seen page
     history.push(store.router.url.value || "/");
