@@ -8,6 +8,7 @@ function useTeleportFiles() {
       // @ts-ignore
       setFiles(JSON.parse(localStorage.getItem("teleportFiles")));
     } catch (err) {}
+    
     const onMessage = (msg: MessageEvent) => {
       if (msg.data.type === "es-lint") {
         const cleaned: Record<string, string> = {};
